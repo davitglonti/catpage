@@ -1,0 +1,38 @@
+.about {
+    margin-left: 200px;
+    margin-right: 200px;
+    animation: anim3 3000ms ease forwards;
+}
+.abouticon{ 
+    font-size: 30px;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    animation: anim4 5000ms ease forwards;
+}
+.aboutheader{
+    display: flex;
+    justify-content: space-around;
+}
+@keyframes anim3 {
+  0% {
+   
+    opacity: 0.5;
+   align-items: center;
+  }
+  25% {
+    
+    opacity: 0.5;
+  }
+
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  }
+  @keyframes anim4 {
+    0% {
+    transform:rotate(180deg);
+    }
+  }

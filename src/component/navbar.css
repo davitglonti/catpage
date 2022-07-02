@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(33, 15, 49);
+    height: 40px;
+}
+
+.leftbar {
+    margin-left: 40px;
+ position: relative;
+ top:10px
+
+}
+.active{
+   
+    background: #33748050;
+   
+}
+.navbar-img{
+    width: 30px;
+    height: auto;
+    border-radius: 100%;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+   
+}
+.rightbar {
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    
+}
+
+.link {
+    color: rgb(174, 197, 175);
+    text-decoration: none;
+    margin: 10px;
+
+}
+.link:hover {
+    color: antiquewhite;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .navbar .rightbar {
+      justify-content: flex-end;
+      padding-right: 0px;
+    }
+  
+  }
+  
